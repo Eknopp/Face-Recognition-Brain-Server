@@ -24,12 +24,16 @@ const db = knex({
 const app = express();
 app.use(express.json());
 app.use(cors());
+<<<<<<< HEAD
 const corsOptions = {
   origin: "http://localhost:3000/",
 };
 
 app.use(cors(corsOptions));
 
+=======
+
+>>>>>>> main
 
 app.get('/', (req, res) => { res.send('it is working') })
 app.post('/signin', signin.handleSignin(db, bcrypt)) 

@@ -31,9 +31,6 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-=======
-
->>>>>>> main
 
 app.get('/', (req, res) => { res.send('it is working') })
 app.post('/signin', signin.handleSignin(db, bcrypt)) 

@@ -11,11 +11,11 @@ const profileId = require('./controllers/profileId')
 const db = knex({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
-      port : 5432,
-      user : 'eknopp',
-      password : '',
-      database : 'face-recognition-brain'
+      host : 'containers-us-west-52.railway.app',
+      port : 5574,
+      user : 'postgres',
+      password : 'JGFtXt7uMvvtJci1Z1zk',
+      database : 'railway'
     }
   });
 
